@@ -1,0 +1,16 @@
+there are different methods (libraries) for video reading using URL depending on use:-
+for using images from video
+  use opencv
+  #python code# 
+  import cv2
+  video=cv2.VideoCapture('URL')
+  
+for downloading audio from (youtube)video
+  use youtube_dl(python code)
+  from youtube_dl import YoutubeDL
+  video=YoutubeDL('URL')
+  audio=extract_info(video)
+
+
+
+
