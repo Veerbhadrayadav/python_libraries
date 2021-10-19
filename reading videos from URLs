@@ -8,8 +8,8 @@ for using images from video
 for downloading audio from (youtube)video
   use youtube_dl(python code)
   from youtube_dl import YoutubeDL
-  video=YoutubeDL('URL')
-  audio=extract_info(video)
+  video=YoutubeDL({'format':'bestaudio'})
+  audio=video.extract_info('URL')
 
 
 
